@@ -1,0 +1,76 @@
+
+body{
+    background-color: darkorange;
+}
+
+.container{
+    color: snow;
+    font-family: Impact, "HiraMinProN-W6";
+    font-size: 25px;
+    
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form { max-width:420px; margin:50px auto; }
+
+
+.row {
+  color:snow;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid rgba(255, 250, 250, 0.555);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+
+
+.form-control {
+  line-height: 150%;
+  width: 300px;
+}
+
+
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:rgba(255, 250, 250, 0.808);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:rgb(221, 59, 59);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:snow; }
+
+
+
+
+
+.btn-link{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+
+
+a {
+    text-decoration:none; 
+}
+
