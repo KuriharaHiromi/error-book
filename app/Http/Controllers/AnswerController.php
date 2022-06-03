@@ -45,7 +45,7 @@ class AnswerController extends Controller
 
     public function ungood($id)
     {
-        $good = Good::where('answer_id', $id)->where('user_id', Auth::id())->first();
+        $good = Good::where('answer_id', $id)->where('ip', \Request::ip())->first();
         $good->delete();
 
         session()->flash('success', 'You Unliked the Reply.');
