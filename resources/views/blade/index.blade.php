@@ -11,7 +11,6 @@
 
     <sns>
         <a href="https://twitter.com/RC14RC14" class="flowbtn8 fl_tw2"><i class="fa-brands fa-twitter"></i></a>
-        <p class="sms">作った奴のツイッター</p>
     </sns>
 
 
